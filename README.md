@@ -20,11 +20,15 @@ body -
 2. GET /status :- This endpoint gives the status of the create request along with the timestamps of the various steps.
 The different steps of the creation are:- 
 
-  1. EC2 Instance Created
-  2. EC2 Instance Started
-  3. App copied, docker installed on remote machine
-  4. Docker image built
-  5. Docker container running
+    1. EC2 Instance Created
+    
+    2. EC2 Instance Started
+    
+    3. App copied, docker installed on remote machine
+    
+    4. Docker image built
+    
+    5. Docker container running
 
 Eg - http://localhost:80/status
 
